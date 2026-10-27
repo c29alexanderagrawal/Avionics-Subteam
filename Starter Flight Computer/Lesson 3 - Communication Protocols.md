@@ -60,7 +60,7 @@
 - Frame format options: 8N1 and the alternatives.
 - Streaming data: the receiver must be ready for bytes that arrive on the sender's schedule.
 - Pin configuration: TX as a push-pull alternate function, RX as an input with a pull-up.
-- **On this board:** the GPS module, its default baud rate and message stream, and changing it.
+- **On this board:** no part uses UART on v1. It is still worth knowing, because GPS modules and radios usually connect this way, and a spare UART makes a simple debug console.
 - Common failures: TX/RX not crossed, mismatched baud rate, dropped bytes when the MCU is busy.
 
 ## 6. Comparing the three

@@ -30,7 +30,7 @@ The STM32F405 is a member of ST's STM32F4 family, built around an **Arm Cortex-M
 - **Flash memory (1 MB).** Where the firmware lives. It survives power loss. Note that this is the MCU's own program memory, separate from the flash chip on the board that stores flight data.
 - **SRAM (192 KB).** Fast working memory for variables and buffers. It is erased the moment power is lost, which is why flight data cannot just sit in RAM.
 - **Peripherals.** Dedicated hardware blocks that do jobs on their own while the core does something else. The ones this board relies on:
-  - **SPI, I²C and USART controllers** to talk to sensors, memory and the GPS.
+  - **SPI and I²C controllers** to talk to sensors and memory.
   - **SDIO** to talk to the microSD card.
   - **USB** for connecting to a computer.
   - **Timers** for keeping time and generating signals such as the buzzer's tone.
@@ -70,7 +70,7 @@ A block called the **PLL** multiplies the base clock up to the fast frequencies 
 
 The STM32F405 has far more peripherals than it has pins, so each pin can be connected to one of several internal functions. This is called **pin multiplexing**, and each choice is an **alternate function**. A given pin might be usable as a plain GPIO, an SPI clock, a UART transmit line or a timer output, but only one at a time.
 
-This makes **pin assignment a design decision**. Each peripheral is only available on certain pins, so the choices interact: putting the GPS UART on one set of pins might take away the only pins that could have carried a second SPI bus. Pin assignments also shape the PCB layout, because they decide which side of the chip each signal leaves from. Pins are planned against the datasheet's pin table, and checked with ST's pin-planning tool, before the schematic is finished.
+This makes **pin assignment a design decision**. Each peripheral is only available on certain pins, so the choices interact: putting the magnetometer's I²C bus on one set of pins might take away the only pins that could have carried a second SPI bus. Pin assignments also shape the PCB layout, because they decide which side of the chip each signal leaves from. Pins are planned against the datasheet's pin table, and checked with ST's pin-planning tool, before the schematic is finished.
 
 ## How the MCU talks to the rest of the board
 
@@ -80,7 +80,6 @@ Every other part on the board connects to the MCU through an interface: a set of
 | --- | --- |
 | **SPI** | IMU and barometer sharing one bus; the data flash on its own bus |
 | **I²C** | Magnetometer |
-| **UART** | GPS module |
 | **SDIO** | microSD card |
 | **USB** | Downloading data, power and firmware updates (including the DFU bootloader) |
 | **SWD** | Programming and debugging during development |
@@ -92,7 +91,6 @@ Every other part on the board connects to the MCU through an interface: a set of
 - The **IMU and barometer** produce data the flight logic needs quickly and often, so they go on fast SPI.
 - The **data flash** gets its own SPI bus because erasing and writing can keep the bus busy for a long time. If it shared a bus with the sensors, a slow write could delay a sensor reading at exactly the wrong moment.
 - The **magnetometer** is read less often and its data is small, so slower two-wire I²C is enough. That saves pins.
-- The **GPS** sends position updates on its own schedule, so a UART stream suits it.
 - The **microSD card** holds a full copy of the flight log, so it gets SDIO's high throughput.
 
 ### How data gets into the MCU

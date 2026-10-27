@@ -11,7 +11,7 @@
 
 ### What the board is
 
-The starter flight computer is a **flight data recorder**. It rides in the av bay and observes: it measures the rocket's motion, altitude, orientation and position, works out what phase of flight the rocket is in, and saves everything to memory so it can be studied after recovery.
+The starter flight computer is a **flight data recorder**. It rides in the av bay and observes: it measures the rocket's motion, altitude and orientation, works out what phase of flight the rocket is in, and saves everything to memory so it can be studied after recovery.
 
 It does **not** control the flight. It fires no ejection charges and steers nothing. Recovery is handled by the motor's delay charge, exactly as it would be with no electronics on board. This is on purpose: a board that only observes can fail without endangering the rocket, which makes it the right first project for learning the hardware.
 
@@ -31,8 +31,7 @@ Every design choice should help answer at least one of these:
 3. **How high did it go, and when did it reach apogee?**
 4. **How was it oriented and rotating throughout the flight?**
 5. **When did the ejection charge fire, and how fast did it descend?**
-6. **Where did it land?**
-7. **Was the board itself healthy the whole time?** (battery voltage, sensor dropouts, logging gaps)
+6. **Was the board itself healthy the whole time?** (battery voltage, sensor dropouts, logging gaps)
 
 ### The phases of flight
 
@@ -40,14 +39,14 @@ The board sorts the flight into phases so it knows how fast to log and what to e
 
 | Phase | What is physically happening | What the sensors see |
 | --- | --- | --- |
-| **Pad** | Rocket sits on the rail, possibly for a long time before launch | About 1 g on the vertical axis, near-zero rotation, steady pressure, GPS acquiring or holding a fix |
+| **Pad** | Rocket sits on the rail, possibly for a long time before launch | About 1 g on the vertical axis, near-zero rotation, steady pressure |
 | **Boost** | Motor is burning; typically only a second or two for an L1 motor | Large sustained acceleration along the rocket's axis, pressure falling quickly |
 | **Coast** | Motor has burned out; rocket is still climbing on momentum and slowing | Axial acceleration drops sharply to negative (drag plus gravity), pressure still falling but more slowly |
 | **Apogee** | Vertical velocity reaches zero; the motor's ejection charge fires near here | Pressure at its minimum, near-weightless readings, then a sharp shock spike from the ejection charge |
 | **Descent** | Rocket falls under its parachute | Pressure rising at a fairly steady rate, swinging and tumbling on the gyro |
-| **Landed** | Rocket is on the ground | Steady pressure again, a steady gravity vector in some random orientation, GPS reporting the landing site |
+| **Landed** | Rocket is on the ground | Steady pressure again, a steady gravity vector in some random orientation |
 
-Two ideas matter here. First, **no single sensor sees everything well**: the accelerometer is best at catching launch and burnout, the barometer is best at apogee, and only GPS knows where the rocket landed. Second, **the transitions are the hard part**. Deciding that launch happened, and not just that someone bumped the rail, is a real engineering problem the firmware lesson will return to.
+Two ideas matter here. First, **no single sensor sees everything well**: the accelerometer is best at catching launch and burnout, the barometer is best at apogee, and the gyro and magnetometer track orientation. Second, **the transitions are the hard part**. Deciding that launch happened, and not just that someone bumped the rail, is a real engineering problem the firmware lesson will return to.
 
 ### From mission to requirements
 
@@ -57,7 +56,7 @@ The mission turns into concrete requirements, and each requirement explains why 
 - **Capture boost in detail.** Boost is short and violent, so the board has to sample fast and handle high acceleration without saturating. This drives the IMU choice and its measurement range.
 - **Measure altitude accurately.** Apogee is the headline number of every flight. This drives the barometer.
 - **Know the orientation.** This drives the gyro and the magnetometer.
-- **Help find the rocket.** This drives the GPS, and the buzzer that lets you hear it in tall grass.
+- **Help find the rocket.** This drives the buzzer that lets you hear it in tall grass.
 - **Never lose the data.** A hard landing or a battery that pops loose must not wipe the flight. This drives writing continuously to onboard flash, with the microSD card as a second copy.
 - **Survive the flight.** Vibration, shock and the ejection charge's jolt drive part selection, connectors and mounting.
 - **Be easy to work with on the ground.** USB for downloading data and updating firmware, SWD for debugging, LEDs and the buzzer for status without a screen.
