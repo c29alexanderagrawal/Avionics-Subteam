@@ -32,7 +32,7 @@ The STM32F405 is a member of ST's STM32F4 family, built around an **Arm Cortex-M
 - **Peripherals.** Dedicated hardware blocks that do jobs on their own while the core does something else. The ones this board relies on:
   - **SPI and I²C controllers** to talk to sensors and memory.
   - **SDIO** to talk to the microSD card.
-  - **USB** for connecting to a computer.
+  - **USB** for connecting to a computer (data only; it does not power the board).
   - **Timers** for keeping time and generating signals such as the buzzer's tone.
   - **ADC** (analog-to-digital converter) to measure voltages such as the battery's.
   - **GPIO** (general-purpose input/output) for simple on/off pins such as LEDs.
@@ -81,7 +81,7 @@ Every other part on the board connects to the MCU through an interface: a set of
 | **SPI** | IMU and barometer sharing one bus; the data flash on its own bus |
 | **I²C** | Magnetometer |
 | **SDIO** | microSD card |
-| **USB** | Downloading data, power and firmware updates (including the DFU bootloader) |
+| **USB** | Downloading data and firmware updates (including the DFU bootloader). USB does not power the board; the battery does. |
 | **SWD** | Programming and debugging during development |
 | **GPIO and PWM** | Status LEDs; the buzzer tone, via a MOSFET switch |
 | **ADC** | Battery voltage, through a voltage divider |

@@ -59,6 +59,6 @@ The mission turns into concrete requirements, and each requirement explains why 
 - **Help find the rocket.** This drives the buzzer that lets you hear it in tall grass.
 - **Never lose the data.** A hard landing or a battery that pops loose must not wipe the flight. This drives writing continuously to onboard flash, with the microSD card as a second copy.
 - **Survive the flight.** Vibration, shock and the ejection charge's jolt drive part selection, connectors and mounting.
-- **Be easy to work with on the ground.** USB for downloading data and updating firmware, SWD for debugging, LEDs and the buzzer for status without a screen.
+- **Be easy to work with on the ground.** USB for downloading data and updating firmware (data only; USB does not power the board), SWD for debugging, LEDs and the buzzer for status without a screen.
 
 The rest of this lesson follows the same thread: every component exists because the mission demands it, and every connection exists so that component can do its part of the job.

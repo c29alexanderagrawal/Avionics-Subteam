@@ -51,7 +51,7 @@ Everything the STM32F405 needs to boot and run: its clock, boot and reset contro
 
 ### USB
 
-USB-C carries power, DFU flashing and log download.
+USB-C carries data only: DFU flashing and log download. It does not power the board; the 1S LiPo powers all logic, even when USB is plugged in.
 
 | Part type | Part number |
 | --- | --- |
