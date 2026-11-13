@@ -25,6 +25,20 @@ Copy this block, paste it under **Log**, and fill it in:
 
 ## 2026-11-12
 
+**Worked on:** Added schedules to Mission Control Dashboard\
+**Completed:** -\
+**Next:** Need to make sure it works for other members\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Photos:**\
+![2026-11-12 photo 1](photos/2026-11-12-42c37629ae.jpg)\
+**Parts:**
+- none
+
+## 2026-11-12
+
 **Worked on:** Added Mission Control website with Claude\
 **Completed:** -\
 **Next:** Add scheduling to it\
