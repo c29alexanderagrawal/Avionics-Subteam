@@ -18,7 +18,7 @@ One folder per avionics team member. Each folder has a `Daily Updates.md` file w
 3. Paste it **directly under the "Log" heading**, so the newest entry is always first.
 4. Fill it in, then commit with a message like `Update: Alex 2026-11-13`.
 
-Keep the headings and field names exactly as they are in the template (`## YYYY-MM-DD`, `**Worked on:**`, and so on). The mission dashboard reads these files every morning, and it relies on that layout. Leave a field as `-` if there is nothing to say.
+Keep the headings and field names exactly as they are in the template (`## YYYY-MM-DD`, `**Worked on:**`, and so on). The mission dashboard reads these files every morning, and it relies on that layout. Leave a field as `-` if there is nothing to say. Keep the backslash (`\`) at the end of each field line: it tells GitHub to show each field on its own line.
 
 ## Fields
 

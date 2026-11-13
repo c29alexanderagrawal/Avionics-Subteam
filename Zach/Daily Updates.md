@@ -11,10 +11,10 @@ Copy this block, paste it under **Log**, and fill it in:
 ```markdown
 ## YYYY-MM-DD
 
-**Worked on:** -
-**Completed:** -
-**Next:** -
-**Blockers:** -
+**Worked on:** -\
+**Completed:** -\
+**Next:** -\
+**Blockers:** -\
 **Parts:**
 - part name | subsystem | qty | status
 ```
