@@ -23,6 +23,20 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-13
+
+**Worked on:** - Tested Mission update with Kaleb Abeye\
+**Completed:** -\
+**Next:** -\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Photos:**\
+![2026-11-13 photo 1](photos/2026-11-13-dcc3d9d1bc.jpg)\
+**Parts:**
+- none
+
 ## 2026-11-12
 
 **Worked on:** Added schedules to Mission Control Dashboard\
