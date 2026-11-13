@@ -26,4 +26,7 @@ Keep the headings and field names exactly as they are in the template (`## YYYY-
 - **Completed:** anything you finished. These roll up into your monthly accomplishments.
 - **Next:** what you plan to do next.
 - **Blockers:** anything stopping you, or help you need.
+- **Helped:** teammates you helped today, comma-separated first names (for example `Zach, Lucie`).
+- **Helped by:** teammates who helped you, same format.
+- **Collaboration notes:** optional; what you worked on together, or people outside avionics.
 - **Parts:** one line per part: `part name | subsystem | qty | status`. Status is one of `needed`, `ordered`, `received`, `installed`.

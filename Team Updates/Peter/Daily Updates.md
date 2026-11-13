@@ -15,6 +15,9 @@ Copy this block, paste it under **Log**, and fill it in:
 **Completed:** -
 **Next:** -
 **Blockers:** -
+**Helped:** -
+**Helped by:** -
+**Collaboration notes:** -
 **Parts:**
 - part name | subsystem | qty | status
 ```
