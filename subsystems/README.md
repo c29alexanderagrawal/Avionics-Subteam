@@ -4,6 +4,7 @@ Each avionics subsystem has its own folder with a `requirements.md` file. Togeth
 
 | Subsystem | Owner(s) | Status | Requirements |
 |---|---|---|---|
+| Power and Arming | TBD | Draft | [power-arming/requirements.md](power-arming/requirements.md) |
 | Pyro / Recovery | Peter | Draft | [pyro-recovery/requirements.md](pyro-recovery/requirements.md) |
 | Controls / Interface Code | TBD | Draft | [controls-interface-code/requirements.md](controls-interface-code/requirements.md) |
 | Sensors | Max | Draft | [sensors/requirements.md](sensors/requirements.md) |
@@ -24,6 +25,11 @@ flowchart LR
     CTL -->|commands: TBD| ACT[Actuators]
     CTL <-->|telemetry and commands: TBD| RAD[Radio and Telemetry]
     RAD <-.->|RF link: TBD| GS[(Ground station)]
+    PWR[Power and Arming] -->|power: TBD| SEN
+    PWR -->|power: TBD| CTL
+    PWR -->|power: TBD| RAD
+    PWR -->|power: TBD| ACT
+    PWR -->|arming / pyro power: TBD| PYRO
     LES[Lessons]:::offboard
 
     classDef offboard stroke-dasharray: 5 5
