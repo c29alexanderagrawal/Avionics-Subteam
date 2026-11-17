@@ -23,6 +23,18 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-16
+
+**Worked on:** Discussed controls requirements with Nathan Aldridge and Caleb.\
+**Completed:** -\
+**Next:** Figure out what kind of computer architecture we will be working on.\
+**Blockers:** -\
+**Helped:** Lucie, Caleb\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Parts:**
+- none
+
 ## 2026-11-13
 
 **Worked on:** - Tested Mission update with Kaleb Abeye\
