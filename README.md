@@ -1,5 +1,7 @@
 # Team Updates
 
+> **Subsystem requirements** live in [subsystems/](subsystems/README.md): one folder per subsystem, each with a `requirements.md`.
+
 One folder per avionics team member. Each folder has a `Daily Updates.md` file where that person logs what they did.
 
 | Member | Subsystem | Update file |
