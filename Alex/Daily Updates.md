@@ -23,6 +23,32 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-18
+
+**Worked on:** Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets.\
+**Completed:** -\
+**Next:** Test that it works on a schedule\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Photos:**\
+![2026-11-18 photo 1](photos/2026-11-18-247f4b377c.jpg)\
+**Parts:**
+- none
+
+## 2026-11-18
+
+**Worked on:** Discussed implementation of airbrakes and necessary sensors to provide realistic simulations.\
+**Completed:** -\
+**Next:** Work with Caleb to figure out what he needs to test out code.\
+**Blockers:** -\
+**Helped:** Peter, Caleb\
+**Helped by:** Peter, Caleb\
+**Collaboration notes:** Dean Dezel\
+**Parts:**
+- none
+
 ## 2026-11-16
 
 **Worked on:** Discussed controls requirements with Nathan Aldridge and Caleb.\
