@@ -22,3 +22,18 @@ Copy this block, paste it under **Log**, and fill it in:
 ## Log
 
 <!-- Newest entry goes directly below this line. -->
+
+## 2026-11-17
+
+**Worked on:** L1 STM32 Board\
+**Completed:** - Debug & Programming; - Buzzer System\
+**Next:** Pyro + Updating Footprints\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Photos:**\
+![2026-11-17 photo 1](photos/2026-11-17-ceea4b4b80.jpg)\
+![2026-11-17 photo 2](photos/2026-11-17-2f22bdff6f.jpg)\
+**Parts:**
+- none
