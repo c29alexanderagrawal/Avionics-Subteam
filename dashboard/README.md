@@ -17,8 +17,9 @@ Suggest dashboard changes in a GitHub issue or to Alex instead.
 
 1. Edit `dashboard/index.html` and commit it **first**, message starting with `MCD:` (e.g. `MCD: calendar biweekly repeats`).
 2. Publish that exact file to the live page.
-3. Record the resulting live version id in a follow-up line of the commit message or a tag, e.g.
-   `git tag mcd-1795030539-d0b0`. The live version id is shown by the artifact tools.
+3. Put the live version id it becomes in the commit message as a `Live-version:` line
+   (e.g. `Live-version: 1795030539-d0b0`). `git log --grep "Live-version" -- dashboard/index.html` then lists
+   every published version.
 
 The live page and `index.html` on `main` should always be byte-identical. Before editing, check the live page's
 SHA-256 against the file here; if they differ, someone published without committing — commit the live copy first.
