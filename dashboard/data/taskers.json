@@ -1,0 +1,27 @@
+{
+  "ev0nodqzy6re66v26je4": {
+    "data": {
+      "assignees": [
+        "alex",
+        "lucie",
+        "max",
+        "peter",
+        "caleb"
+      ],
+      "createdAt": "2026-11-18T15:30:03.098Z",
+      "detail": "",
+      "done_alex": "2026-11-18T15:30:09.762Z",
+      "done_lucie": "2026-11-18T15:30:06.756Z",
+      "done_max": "2026-11-18T15:30:08.016Z",
+      "done_peter": "2026-11-18T15:30:08.688Z",
+      "link": "https://usafa0-my.sharepoint.com/:x:/r/personal/c28jeremy_sattley_afacademy_af_edu/Documents/BHR%20SCA%20List.xlsx?d=wfcb7c993d1c94a73b725aad06fa58664&csf=1&web=1&e=yTDHpH",
+      "priority": "priority",
+      "suspense": "2026-11-25",
+      "taskedBy": "Alex",
+      "title": "Put your name in the SCA Excel tracker!",
+      "updatedAt": "2026-11-18T15:30:03.098Z"
+    },
+    "updatedAt": "2026-11-18T15:30:10.548514Z",
+    "version": 5
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "alex": {
+    "data": {
+      "accomplishments": [
+        {
+          "month": "2026-11",
+          "text": "Launched the Mission Control dashboard with a nightly scheduled sync that moves daily updates from the form queue to GitHub, summarizes them onto member pages, and now also logs each update to the club-wide technical log Google Sheet."
+        },
+        {
+          "month": "2026-11",
+          "text": "Settled the starter board's power design: USB-C carries data only (DFU and log download), and the 1S LiPo powers all logic."
+        },
+        {
+          "month": "2026-11",
+          "text": "Replaced 3 out-of-stock parts during design: IMU LSM6DSO32 → LSM6DSV32X (same ±32 g range and package, new register map), 10 µF capacitor 0805 → 0603, 100 kΩ resistor 0603 → 0402; moved the parts list from PDF to Markdown."
+        },
+        {
+          "month": "2026-10",
+          "text": "Removed GPS from v1 of the starter board and updated the lessons and parts list to match."
+        },
+        {
+          "month": "2026-10",
+          "text": "Published the Starter Flight Computer parts list and Lessons 1–3 for the new-member practice board."
+        }
+      ],
+      "consolidatedAt": "2026-11-18T18:46:00Z",
+      "focus": "Extending the Mission Control dashboard and scoping airbrakes sensing and simulation with Controls. On Nov 18 he added a step so dashboard daily updates are pushed automatically into Aydan's club-wide technical log Google Sheet, and the next step is confirming it runs correctly on the nightly schedule. The same day he discussed the airbrakes implementation with Peter, Caleb and Dean Dezel, focusing on which sensors are needed to drive realistic simulations, and will next work with Caleb on what he needs to test the code. On Nov 16 he went through the controls requirements with Nathan Aldridge and Caleb to inform the flight computer architecture choice.",
+      "latest": {
+        "blockers": "",
+        "collabNote": "",
+        "date": "2026-11-18",
+        "helped": [],
+        "helpedBy": [],
+        "next": "Test that it works on a schedule",
+        "workedOn": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets."
+      },
+      "name": "Alex",
+      "parts": [],
+      "photos": [
+        {
+          "addedAt": "2026-11-18T18:44:23.156Z",
+          "asset": "247f4b377c0ea631f7faabb1c6c52b29",
+          "caption": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets.",
+          "date": "2026-11-18",
+          "path": "photos/2026-11-18-247f4b377c.jpg"
+        },
+        {
+          "asset": "dcc3d9d1bcdac87d845230cbca48af69",
+          "caption": "- Tested Mission update with Kaleb Abeye",
+          "date": "2026-11-13",
+          "path": "photos/2026-11-13-dcc3d9d1bc.jpg"
+        },
+        {
+          "addedAt": "2026-11-13T05:54:05.646Z",
+          "asset": "42c37629aee93de594589b8d1114eddf",
+          "caption": "Added schedules to Mission Control Dashboard",
+          "date": "2026-11-12",
+          "path": "photos/2026-11-12-42c37629ae.jpg"
+        },
+        {
+          "addedAt": "2026-11-13T05:06:36.132Z",
+          "asset": "3662a255ced0cbc756f20d423d720d19",
+          "caption": "Added Mission Control website with Claude",
+          "date": "2026-11-12",
+          "path": "photos/2026-11-12-3662a255ce.jpg"
+        }
+      ],
+      "recentUpdates": [
+        {
+          "date": "2026-11-18",
+          "workedOn": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets."
+        },
+        {
+          "date": "2026-11-18",
+          "workedOn": "Discussed implementation of airbrakes and necessary sensors to provide realistic simulations."
+        },
+        {
+          "date": "2026-11-16",
+          "workedOn": "Discussed controls requirements with Nathan Aldridge and Caleb."
+        },
+        {
+          "date": "2026-11-13",
+          "workedOn": "- Tested Mission update with Kaleb Abeye"
+        },
+        {
+          "date": "2026-11-12",
+          "workedOn": "Added schedules to Mission Control Dashboard"
+        },
+        {
+          "date": "2026-11-12",
+          "workedOn": "Added Mission Control website with Claude"
+        },
+        {
+          "date": "2026-11-12",
+          "workedOn": "I read some articles about how rocketry teams are run in other universities."
+        }
+      ],
+      "role": "Primary flight computer",
+      "teamwork": {
+        "external": [
+          {
+            "count": 1,
+            "name": "Jacob Peay",
+            "subteam": "Structures"
+          },
+          {
+            "count": 1,
+            "name": "Nathan Aldridge",
+            "subteam": ""
+          },
+          {
+            "count": 1,
+            "name": "Kaleb Abeye",
+            "subteam": ""
+          },
+          {
+            "count": 1,
+            "name": "Dean Dezel",
+            "subteam": ""
+          }
+        ],
+        "helped": [
+          {
+            "count": 2,
+            "member": "caleb"
+          },
+          {
+            "count": 1,
+            "member": "lucie"
+          },
+          {
+            "count": 1,
+            "member": "peter"
+          }
+        ],
+        "helpedBy": [
+          {
+            "count": 1,
+            "member": "peter"
+          },
+          {
+            "count": 1,
+            "member": "caleb"
+          }
+        ],
+        "summary": "Worked with Caleb and Peter on airbrakes sensing and simulation (with Dean Dezel) and with Caleb and Nathan Aldridge on controls requirements; also reviewed Lucie's starter-board USB design."
+      },
+      "updatedAt": "2026-11-18T18:44:23.156Z",
+      "workingOn": []
+    },
+    "updatedAt": "2026-11-18T18:45:46.312606Z",
+    "version": 9
+  },
+  "caleb": {
+    "data": {
+      "focus": "",
+      "name": "Caleb",
+      "parts": [],
+      "role": "",
+      "teamwork": {
+        "external": [
+          {
+            "count": 1,
+            "name": "Nathan Aldridge",
+            "subteam": ""
+          }
+        ],
+        "helped": [
+          {
+            "count": 1,
+            "member": "alex"
+          }
+        ],
+        "helpedBy": [
+          {
+            "count": 2,
+            "member": "alex"
+          }
+        ],
+        "summary": "Worked with Alex on controls requirements (with Nathan Aldridge) and on airbrakes sensing and simulation with Peter and Dean Dezel."
+      },
+      "updatedAt": null,
+      "workingOn": []
+    },
+    "updatedAt": "2026-11-18T18:45:46.326822Z",
+    "version": 3
+  },
+  "lucie": {
+    "data": {
+      "accomplishments": [
+        {
+          "month": "2026-11",
+          "text": "Wired the starter board's USB subsystem (receptacle, headers and ESD protection) into the KiCad schematic, moving to a smaller USB receptacle after review."
+        }
+      ],
+      "consolidatedAt": "2026-11-17T04:45:00Z",
+      "focus": "Building the USB section of the starter flight computer board in KiCad. On Nov 16 she wired the USB receptacle, the headers and the USB ESD protection into the starter board schematic, completing the USB subsystem. After Alex reviewed the drawing she swapped the original USB receptacle for a smaller footprint part. Next up is adding the voltage regulator.",
+      "latest": {
+        "blockers": "",
+        "collabNote": "Alex gave feedback on the USB Receptacle I had in my Kicad drawing which I switched to a smaller receptacle",
+        "date": "2026-11-16",
+        "helped": [],
+        "helpedBy": [
+          "alex"
+        ],
+        "next": "Work towards adding in the regulator",
+        "workedOn": "I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection."
+      },
+      "name": "Lucie",
+      "parts": [],
+      "photos": [
+        {
+          "addedAt": "2026-11-17T00:05:44.359Z",
+          "asset": "1cc8bd34e7546f3d698a1ad8ca2903bc",
+          "caption": "I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection.",
+          "date": "2026-11-16",
+          "path": "photos/2026-11-16-1cc8bd34e7.jpg"
+        }
+      ],
+      "recentUpdates": [
+        {
+          "date": "2026-11-16",
+          "workedOn": "I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection."
+        }
+      ],
+      "role": "Radio",
+      "teamwork": {
+        "external": [],
+        "helped": [],
+        "helpedBy": [
+          {
+            "count": 1,
+            "member": "alex"
+          }
+        ],
+        "summary": "Worked with Alex on the starter board's USB section; his review of her KiCad drawing led to a smaller USB receptacle."
+      },
+      "updatedAt": "2026-11-17T00:05:44.359Z",
+      "workingOn": []
+    },
+    "updatedAt": "2026-11-17T04:42:15.702453Z",
+    "version": 3
+  },
+  "max": {
+    "data": {
+      "focus": "",
+      "name": "Max",
+      "parts": [],
+      "role": "Sensors",
+      "updatedAt": null,
+      "workingOn": []
+    },
+    "updatedAt": "2026-11-13T03:10:12.619227Z",
+    "version": 2
+  },
+  "peter": {
+    "data": {
+      "accomplishments": [
+        {
+          "month": "2026-11",
+          "text": "Added the SWD debug/programming header and a MOSFET-driven buzzer circuit to the L1 STM32 board schematic."
+        }
+      ],
+      "consolidatedAt": "2026-11-18T04:42:30Z",
+      "focus": "Designing the schematic for the L1 STM32 flight board, with pyro channels up next. On 2026-11-17 he finished the debug/programming section: a 10-pin 1.27 mm SWD header (Samtec FTSH-105-01) breaking out 3V3, SWDIO, SWCLK, SWO and NRST. He also completed the buzzer circuit, driving a CSS-J4B20 buzzer off 3V3 through an AO3400A N-MOSFET from a BUZZER_PWM line, with a 10k gate pull-down and a 1N4148W flyback diode. Next he is adding the pyro circuits and updating footprints.",
+      "latest": {
+        "blockers": "",
+        "collabNote": "",
+        "date": "2026-11-17",
+        "helped": [],
+        "helpedBy": [],
+        "next": "Pyro + Updating Footprints",
+        "workedOn": "L1 STM32 Board"
+      },
+      "name": "Peter",
+      "parts": [],
+      "photos": [
+        {
+          "addedAt": "2026-11-17T23:56:41.128Z",
+          "asset": "ceea4b4b80a5fdbe760db3865b13a9f0",
+          "caption": "L1 STM32 Board",
+          "date": "2026-11-17",
+          "path": "photos/2026-11-17-ceea4b4b80.jpg"
+        },
+        {
+          "addedAt": "2026-11-17T23:56:41.128Z",
+          "asset": "2f22bdff6f860b34ce9f4ccc74e51b17",
+          "caption": "L1 STM32 Board",
+          "date": "2026-11-17",
+          "path": "photos/2026-11-17-2f22bdff6f.jpg"
+        }
+      ],
+      "recentUpdates": [
+        {
+          "date": "2026-11-17",
+          "workedOn": "L1 STM32 Board"
+        }
+      ],
+      "role": "Pyrotechnics",
+      "teamwork": {
+        "external": [],
+        "helped": [
+          {
+            "count": 1,
+            "member": "alex"
+          }
+        ],
+        "helpedBy": [
+          {
+            "count": 1,
+            "member": "alex"
+          }
+        ],
+        "summary": "Discussed airbrakes sensing and simulation with Alex and Caleb (and Dean Dezel) on Nov 18."
+      },
+      "updatedAt": "2026-11-17T23:56:41.128Z",
+      "workingOn": []
+    },
+    "updatedAt": "2026-11-18T18:45:46.319798Z",
+    "version": 4
+  },
+  "zach": {
+    "data": {
+      "accomplishments": [],
+      "consolidatedAt": "2026-11-17T04:45:00Z",
+      "focus": "Writing the IMU lesson for the starter flight computer curriculum. On Nov 16 he formatted the IMU lesson and settled the structure for the IMU class, then started filling in its content. Next step is completing the IMU class material.",
+      "latest": {
+        "blockers": "",
+        "collabNote": "",
+        "date": "2026-11-16",
+        "helped": [],
+        "helpedBy": [],
+        "next": "complete IMU class",
+        "workedOn": "IMU class Content"
+      },
+      "name": "Zach",
+      "parts": [],
+      "photos": [],
+      "recentUpdates": [
+        {
+          "date": "2026-11-16",
+          "workedOn": "IMU class Content"
+        },
+        {
+          "date": "2026-11-16",
+          "workedOn": "IMU lesson formatting"
+        }
+      ],
+      "role": "Lessons",
+      "teamwork": {
+        "external": [],
+        "helped": [],
+        "helpedBy": [],
+        "summary": "No logged collaboration yet; the IMU lesson work so far has been solo."
+      },
+      "updatedAt": "2026-11-17T00:02:30.095Z",
+      "workingOn": []
+    },
+    "updatedAt": "2026-11-17T04:42:19.780201Z",
+    "version": 3
+  }
+}

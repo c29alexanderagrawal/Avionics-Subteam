@@ -1,0 +1,60 @@
+{
+  "2026-11-12": {
+    "data": {
+      "items": [
+        {
+          "done": false,
+          "note": "Assign an owner to each block on the avionics architecture diagram.",
+          "subsystems": [
+            {
+              "name": "Primary flight computer",
+              "owner": "Alex"
+            },
+            {
+              "name": "Power & arming",
+              "owner": ""
+            },
+            {
+              "name": "GPS tracking",
+              "owner": ""
+            },
+            {
+              "name": "Radio",
+              "owner": "Lucie"
+            },
+            {
+              "name": "Sensors",
+              "owner": "Max"
+            },
+            {
+              "name": "Video downlink",
+              "owner": ""
+            },
+            {
+              "name": "Air brakes",
+              "owner": ""
+            },
+            {
+              "name": "Throttle cutoff & dump valves",
+              "owner": ""
+            },
+            {
+              "name": "Pyrotechnics",
+              "owner": "Peter"
+            },
+            {
+              "name": "Lessons",
+              "owner": "Zach"
+            }
+          ],
+          "title": "Determine delegation of subsystems"
+        }
+      ],
+      "location": "",
+      "time": "",
+      "title": "Avionics sync"
+    },
+    "updatedAt": "2026-11-13T03:19:23.414427Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "components-final": {
+    "data": {
+      "date": "2027-01-15",
+      "detail": "Every Avionics subsystem requirements finalized",
+      "final": false,
+      "time": "08:00",
+      "title": "Requirements Finalized"
+    },
+    "updatedAt": "2026-11-18T15:42:17.451071Z",
+    "version": 3
+  },
+  "launch": {
+    "data": {
+      "date": "2027-05-31",
+      "detail": "Anticipated launch date. Everything on this path leads here.",
+      "final": true,
+      "time": "08:00",
+      "title": "Launch"
+    },
+    "updatedAt": "2026-11-13T02:52:17.062541Z",
+    "version": 1
+  },
+  "mojave-sphinx": {
+    "data": {
+      "date": "2026-12-15",
+      "detail": "Pathfinder flight. Learn the full design, test and launch loop.",
+      "final": false,
+      "time": "08:00",
+      "title": "Launch Mojave Sphinx"
+    },
+    "updatedAt": "2026-11-13T02:52:17.053451Z",
+    "version": 1
+  }
+}

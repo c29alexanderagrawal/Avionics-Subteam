@@ -1,0 +1,288 @@
+{
+  "6rz1na69bsisvp6zet95": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "e8ff48e4dad835b7853691e94cdb77eb6c363550",
+      "committedAt": "2026-11-13T15:51:59Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-13T15:52:30Z",
+      "date": "2026-11-13",
+      "helped": [],
+      "helpedBy": [],
+      "member": "alex",
+      "next": "",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "dcc3d9d1bcdac87d845230cbca48af69",
+          "path": "photos/2026-11-13-dcc3d9d1bc.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-13T15:51:44.703Z",
+      "workedOn": "- Tested Mission update with Kaleb Abeye"
+    },
+    "updatedAt": "2026-11-13T15:52:21.819037Z",
+    "version": 3
+  },
+  "7xhdmx4odjn5bcgm8l8e": {
+    "data": {
+      "blockers": "NA",
+      "collabNote": "Jacob Peay",
+      "commit": "c5c3f7870e5cbab37ff3ce5d5bf9a3ab98cc5e37",
+      "committedAt": "2026-11-13T05:16:00.000Z",
+      "completed": "Read an article about how rocketry teams are run by a university in Austrialia. Attended team meeting and discussed drag with Jacob.",
+      "consolidatedAt": "2026-11-13T05:37:00.000Z",
+      "date": "2026-11-12",
+      "helped": [],
+      "helpedBy": [],
+      "member": "alex",
+      "next": "Need to read more of Nasa Engineering Handbook",
+      "parts": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-13T04:14:06.517Z",
+      "workedOn": "I read some articles about how rocketry teams are run in other universities."
+    },
+    "updatedAt": "2026-11-13T05:37:12.257053Z",
+    "version": 4
+  },
+  "hnyx23xefkpe60kf2yr1": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "2c9f6e8daaa1f3af0820aa7ef8569656f00636df",
+      "committedAt": "2026-11-13T05:55:15Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-13T05:55:29Z",
+      "date": "2026-11-12",
+      "helped": [],
+      "helpedBy": [],
+      "member": "alex",
+      "next": "Need to make sure it works for other members",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "42c37629aee93de594589b8d1114eddf",
+          "path": "photos/2026-11-12-42c37629ae.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-13T05:54:05.646Z",
+      "workedOn": "Added schedules to Mission Control Dashboard"
+    },
+    "updatedAt": "2026-11-13T05:55:45.874015Z",
+    "version": 3
+  },
+  "hr0c0ot7ar7suusl5v3r": {
+    "data": {
+      "blockers": "",
+      "collabNote": "Alex gave feedback on the USB Receptacle I had in my Kicad drawing which I switched to a smaller receptacle",
+      "commit": "fe4bac3cec8b61ede104f3e4f3786e47af2d2088",
+      "committedAt": "2026-11-17T04:45:00Z",
+      "completed": "USB system was wired",
+      "consolidatedAt": "2026-11-17T04:45:00Z",
+      "date": "2026-11-16",
+      "helped": [],
+      "helpedBy": [
+        "alex"
+      ],
+      "member": "lucie",
+      "next": "Work towards adding in the regulator",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "1cc8bd34e7546f3d698a1ad8ca2903bc",
+          "path": "photos/2026-11-16-1cc8bd34e7.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-17T00:05:44.359Z",
+      "workedOn": "I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection."
+    },
+    "updatedAt": "2026-11-17T04:42:34.871111Z",
+    "version": 3
+  },
+  "hzd63i8b2yaifr0o9pi5": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "fe4bac3cec8b61ede104f3e4f3786e47af2d2088",
+      "committedAt": "2026-11-17T04:45:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-17T04:45:00Z",
+      "date": "2026-11-16",
+      "helped": [],
+      "helpedBy": [],
+      "member": "zach",
+      "next": "Lesson content",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-16T23:37:52.468Z",
+      "workedOn": "IMU lesson formatting"
+    },
+    "updatedAt": "2026-11-17T04:42:34.879378Z",
+    "version": 3
+  },
+  "n9wqqqmq7ig0wbkuqlko": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "6cbc7671f881e35db27f5c33cfdb3fd70c3d28b2",
+      "committedAt": "2026-11-18T18:45:10Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-18T18:47:00Z",
+      "date": "2026-11-18",
+      "helped": [],
+      "helpedBy": [],
+      "member": "alex",
+      "next": "Test that it works on a schedule",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "247f4b377c0ea631f7faabb1c6c52b29",
+          "path": "photos/2026-11-18-247f4b377c.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-18T18:44:23.156Z",
+      "workedOn": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets."
+    },
+    "updatedAt": "2026-11-18T18:45:50.600934Z",
+    "version": 3
+  },
+  "rd1zchuzndsw1utj4d8e": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "fe4bac3cec8b61ede104f3e4f3786e47af2d2088",
+      "committedAt": "2026-11-17T04:45:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-17T04:45:00Z",
+      "date": "2026-11-16",
+      "helped": [
+        "lucie",
+        "caleb"
+      ],
+      "helpedBy": [],
+      "member": "alex",
+      "next": "Figure out what kind of computer architecture we will be working on.",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-17T00:31:21.119Z",
+      "workedOn": "Discussed controls requirements with Nathan Aldridge and Caleb."
+    },
+    "updatedAt": "2026-11-17T04:42:34.887734Z",
+    "version": 3
+  },
+  "vk1ag9som0cg0s5fgb37": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "c5c3f7870e5cbab37ff3ce5d5bf9a3ab98cc5e37",
+      "committedAt": "2026-11-13T05:16:00.000Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-13T05:37:00.000Z",
+      "date": "2026-11-12",
+      "helped": [],
+      "helpedBy": [],
+      "member": "alex",
+      "next": "Add scheduling to it",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "3662a255ced0cbc756f20d423d720d19",
+          "path": "photos/2026-11-12-3662a255ce.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-13T05:06:36.132Z",
+      "workedOn": "Added Mission Control website with Claude"
+    },
+    "updatedAt": "2026-11-13T05:37:12.269347Z",
+    "version": 3
+  },
+  "wgo21lguxxqoavrjo3k7": {
+    "data": {
+      "blockers": "",
+      "collabNote": "Dean Dezel",
+      "commit": "6cbc7671f881e35db27f5c33cfdb3fd70c3d28b2",
+      "committedAt": "2026-11-18T18:45:10Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-18T18:47:00Z",
+      "date": "2026-11-18",
+      "helped": [
+        "peter",
+        "caleb"
+      ],
+      "helpedBy": [
+        "peter",
+        "caleb"
+      ],
+      "member": "alex",
+      "next": "Work with Caleb to figure out what he needs to test out code.",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-18T18:27:21.582Z",
+      "workedOn": "Discussed implementation of airbrakes and necessary sensors to provide realistic simulations."
+    },
+    "updatedAt": "2026-11-18T18:45:50.611295Z",
+    "version": 3
+  },
+  "xa0nwtgxtfwfuparh0yx": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "a6e725b4304eb365c2fe069b43d2ed679269909c",
+      "committedAt": "2026-11-18T00:00:00Z",
+      "completed": "- Debug & Programming\n- Buzzer System",
+      "consolidatedAt": "2026-11-18T04:42:30Z",
+      "date": "2026-11-17",
+      "helped": [],
+      "helpedBy": [],
+      "member": "peter",
+      "next": "Pyro + Updating Footprints",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "ceea4b4b80a5fdbe760db3865b13a9f0",
+          "path": "photos/2026-11-17-ceea4b4b80.jpg"
+        },
+        {
+          "asset": "2f22bdff6f860b34ce9f4ccc74e51b17",
+          "path": "photos/2026-11-17-2f22bdff6f.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-17T23:56:41.128Z",
+      "workedOn": "L1 STM32 Board"
+    },
+    "updatedAt": "2026-11-18T04:42:06.192703Z",
+    "version": 3
+  },
+  "yqwn7wkflpc50sy0vuiy": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "fe4bac3cec8b61ede104f3e4f3786e47af2d2088",
+      "committedAt": "2026-11-17T04:45:00Z",
+      "completed": "IMU class format",
+      "consolidatedAt": "2026-11-17T04:45:00Z",
+      "date": "2026-11-16",
+      "helped": [],
+      "helpedBy": [],
+      "member": "zach",
+      "next": "complete IMU class",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-17T00:02:30.095Z",
+      "workedOn": "IMU class Content"
+    },
+    "updatedAt": "2026-11-17T04:42:34.895501Z",
+    "version": 3
+  }
+}

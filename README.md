@@ -1,6 +1,8 @@
 # Team Updates
 
 > **Subsystem requirements** live in [subsystems/](subsystems/README.md): one folder per subsystem, each with a `requirements.md`.
+>
+> **Mission Control dashboard** source and nightly data history live in [dashboard/](dashboard/README.md) (maintained automatically; please don't edit by hand).
 
 One folder per avionics team member. Each folder has a `Daily Updates.md` file where that person logs what they did.
 

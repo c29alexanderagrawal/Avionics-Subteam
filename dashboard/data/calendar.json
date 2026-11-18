@@ -1,0 +1,56 @@
+{
+  "1m47e869554qgk8dsj89": {
+    "data": {
+      "allDay": false,
+      "attendees": [
+        "alex",
+        "zach",
+        "lucie",
+        "max",
+        "peter",
+        "caleb"
+      ],
+      "createdAt": "2026-11-18T19:33:21.285Z",
+      "date": "2026-11-19",
+      "detail": "",
+      "end": "18:00",
+      "kind": "meeting",
+      "link": "",
+      "location": "SSRC",
+      "repeat": "",
+      "start": "18:00",
+      "title": "FULL Team Meeting",
+      "until": "",
+      "updatedAt": "2026-11-18T19:34:54.522Z"
+    },
+    "updatedAt": "2026-11-18T19:34:54.167241Z",
+    "version": 2
+  },
+  "mnh93wh0f720h2i3ou3q": {
+    "data": {
+      "allDay": false,
+      "attendees": [
+        "alex",
+        "zach",
+        "lucie",
+        "max",
+        "peter",
+        "caleb"
+      ],
+      "createdAt": "2026-11-18T19:34:16.309Z",
+      "date": "2026-11-19",
+      "detail": "",
+      "end": "19:30",
+      "kind": "meeting",
+      "link": "",
+      "location": "SSRC",
+      "repeat": "",
+      "start": "18:45",
+      "title": "Avionics Team Meeting",
+      "until": "",
+      "updatedAt": "2026-11-18T19:34:29.180Z"
+    },
+    "updatedAt": "2026-11-18T19:34:28.848596Z",
+    "version": 2
+  }
+}
