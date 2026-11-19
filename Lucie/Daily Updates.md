@@ -23,6 +23,20 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-18
+
+**Worked on:** Rebuilt starter board and continued work on regulator. Researched competition requirements and modules.\
+**Completed:** -\
+**Next:** Research more modules to compare\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Photos:**\
+![2026-11-18 photo 1](photos/2026-11-18-7398d07232.jpg)\
+**Parts:**
+- none
+
 ## 2026-11-16
 
 **Worked on:** I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection.\

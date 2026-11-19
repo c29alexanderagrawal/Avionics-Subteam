@@ -23,6 +23,18 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-18
+
+**Worked on:** SCA Sheet\
+**Completed:** Did the SCA sheet\
+**Next:** Complete IMU lesson\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Parts:**
+- none
+
 ## 2026-11-16
 
 **Worked on:** IMU class Content\
