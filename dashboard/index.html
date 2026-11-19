@@ -564,6 +564,9 @@ dialog h2{font-size:18px}
 }
 @media (max-width:480px){ .sep{display:none} .ph{height:180px} }
 @media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} }
+/* Avionics Sync agenda removed from the main page (data and code kept); calendar takes the full row */
+.agenda[hidden]{display:none!important}
+.lower{grid-template-columns:minmax(0,1fr)!important}
 </style>
 </head>
 <body>
@@ -669,7 +672,7 @@ dialog h2{font-size:18px}
   </section>
 
   <div class="lower">
-    <section class="panel agenda" aria-label="Meeting agenda">
+    <section class="panel agenda" aria-label="Meeting agenda" hidden>
       <div class="sec-head">
         <h2 id="agendaTitle">Avionics sync</h2>
         <div class="controls">

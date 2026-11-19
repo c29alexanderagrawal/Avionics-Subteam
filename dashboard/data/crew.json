@@ -153,6 +153,7 @@
   },
   "caleb": {
     "data": {
+      "consolidatedAt": "2026-11-19T04:43:00Z",
       "focus": "",
       "name": "Caleb",
       "parts": [],
@@ -169,21 +170,29 @@
           {
             "count": 1,
             "member": "alex"
+          },
+          {
+            "count": 1,
+            "member": "max"
           }
         ],
         "helpedBy": [
           {
             "count": 2,
             "member": "alex"
+          },
+          {
+            "count": 1,
+            "member": "max"
           }
         ],
-        "summary": "Worked with Alex on controls requirements (with Nathan Aldridge) and on airbrakes sensing and simulation with Peter and Dean Dezel."
+        "summary": "Worked with Alex on controls requirements (with Nathan Aldridge) and airbrakes sensing and simulation with Peter and Dean Dezel, and with Max on IMU configuration."
       },
       "updatedAt": null,
       "workingOn": []
     },
-    "updatedAt": "2026-11-18T18:45:46.326822Z",
-    "version": 3
+    "updatedAt": "2026-11-19T04:42:16.551023Z",
+    "version": 4
   },
   "lucie": {
     "data": {
@@ -193,22 +202,27 @@
           "text": "Wired the starter board's USB subsystem (receptacle, headers and ESD protection) into the KiCad schematic, moving to a smaller USB receptacle after review."
         }
       ],
-      "consolidatedAt": "2026-11-17T04:45:00Z",
-      "focus": "Building the USB section of the starter flight computer board in KiCad. On Nov 16 she wired the USB receptacle, the headers and the USB ESD protection into the starter board schematic, completing the USB subsystem. After Alex reviewed the drawing she swapped the original USB receptacle for a smaller footprint part. Next up is adding the voltage regulator.",
+      "consolidatedAt": "2026-11-19T04:43:00Z",
+      "focus": "Building the starter flight computer board in KiCad, now moving from the USB section to the voltage regulator. On Nov 16 she wired the USB receptacle, headers and USB ESD protection, switching to a smaller receptacle after Alex's review. On Nov 18 she rebuilt the starter board, continued work on the regulator circuit, and researched the competition requirements and candidate modules. Next she is comparing more modules.",
       "latest": {
         "blockers": "",
-        "collabNote": "Alex gave feedback on the USB Receptacle I had in my Kicad drawing which I switched to a smaller receptacle",
-        "date": "2026-11-16",
+        "collabNote": "",
+        "date": "2026-11-18",
         "helped": [],
-        "helpedBy": [
-          "alex"
-        ],
-        "next": "Work towards adding in the regulator",
-        "workedOn": "I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection."
+        "helpedBy": [],
+        "next": "Research more modules to compare",
+        "workedOn": "Rebuilt starter board and continued work on regulator. Researched competition requirements and modules."
       },
       "name": "Lucie",
       "parts": [],
       "photos": [
+        {
+          "addedAt": "2026-11-18T23:54:46.000Z",
+          "asset": "7398d072325945d01c73df139eda5cf2",
+          "caption": "Rebuilt starter board and continued work on regulator. Researched competition requirements and modules.",
+          "date": "2026-11-18",
+          "path": "photos/2026-11-18-7398d07232.jpg"
+        },
         {
           "addedAt": "2026-11-17T00:05:44.359Z",
           "asset": "1cc8bd34e7546f3d698a1ad8ca2903bc",
@@ -218,6 +232,10 @@
         }
       ],
       "recentUpdates": [
+        {
+          "date": "2026-11-18",
+          "workedOn": "Rebuilt starter board and continued work on regulator. Researched competition requirements and modules."
+        },
         {
           "date": "2026-11-16",
           "workedOn": "I worked on the starter board, primarily on wiring the USB receptacle, headers, and USB ESD Protection."
@@ -235,23 +253,66 @@
         ],
         "summary": "Worked with Alex on the starter board's USB section; his review of her KiCad drawing led to a smaller USB receptacle."
       },
-      "updatedAt": "2026-11-17T00:05:44.359Z",
+      "updatedAt": "2026-11-18T23:54:46.000Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-17T04:42:15.702453Z",
-    "version": 3
+    "updatedAt": "2026-11-19T04:42:10.627075Z",
+    "version": 4
   },
   "max": {
     "data": {
-      "focus": "",
+      "accomplishments": [
+        {
+          "month": "2026-11",
+          "text": "Selected the BMI270 as the team's IMU after reviewing its circuitry and pin layout against Caleb's configuration needs."
+        }
+      ],
+      "consolidatedAt": "2026-11-19T04:43:00Z",
+      "focus": "Defining the IMU for the avionics sensor suite. On Nov 18 he met with Caleb to pin down Caleb's IMU configuration needs and timelines, then researched the BMI270's required support circuitry and pin layout. He settled on the BMI270 as the team's IMU (two units needed). Next he will finish working out the BMI270 pinout and circuit and pick a magnetometer and barometer for the suite.",
+      "latest": {
+        "blockers": "My own expertise :,(",
+        "collabNote": "",
+        "date": "2026-11-18",
+        "helped": [
+          "caleb"
+        ],
+        "helpedBy": [
+          "caleb"
+        ],
+        "next": "I plan to further look into the BMI270 pin layout and circuitry. I also plan to find a magnometer and barometer to integrate into the sensor suite.",
+        "workedOn": "I discussed IMU configuration with Caleb to get a better idea of his needs and timelines. Further researched the BMI270 IMU, particularly its required circuitry and pin layout."
+      },
       "name": "Max",
       "parts": [],
+      "photos": [],
+      "recentUpdates": [
+        {
+          "date": "2026-11-18",
+          "workedOn": "I discussed IMU configuration with Caleb to get a better idea of his needs and timelines. Further researched the BMI270 IMU, particularly its required circuitry and pin layout."
+        }
+      ],
       "role": "Sensors",
-      "updatedAt": null,
+      "teamwork": {
+        "external": [],
+        "helped": [
+          {
+            "count": 1,
+            "member": "caleb"
+          }
+        ],
+        "helpedBy": [
+          {
+            "count": 1,
+            "member": "caleb"
+          }
+        ],
+        "summary": "Worked with Caleb on IMU configuration, matching sensor selection to his needs and timelines."
+      },
+      "updatedAt": "2026-11-18T23:56:22.704Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-13T03:10:12.619227Z",
-    "version": 2
+    "updatedAt": "2026-11-19T04:42:02.602788Z",
+    "version": 3
   },
   "peter": {
     "data": {
@@ -322,21 +383,25 @@
   "zach": {
     "data": {
       "accomplishments": [],
-      "consolidatedAt": "2026-11-17T04:45:00Z",
-      "focus": "Writing the IMU lesson for the starter flight computer curriculum. On Nov 16 he formatted the IMU lesson and settled the structure for the IMU class, then started filling in its content. Next step is completing the IMU class material.",
+      "consolidatedAt": "2026-11-19T04:43:00Z",
+      "focus": "Writing the IMU lesson for the starter flight computer curriculum. On Nov 16 he set the IMU class format and started filling in its content. On Nov 18 he completed the SCA sheet. Next step is finishing the IMU lesson.",
       "latest": {
         "blockers": "",
         "collabNote": "",
-        "date": "2026-11-16",
+        "date": "2026-11-18",
         "helped": [],
         "helpedBy": [],
-        "next": "complete IMU class",
-        "workedOn": "IMU class Content"
+        "next": "Complete IMU lesson",
+        "workedOn": "SCA Sheet"
       },
       "name": "Zach",
       "parts": [],
       "photos": [],
       "recentUpdates": [
+        {
+          "date": "2026-11-18",
+          "workedOn": "SCA Sheet"
+        },
         {
           "date": "2026-11-16",
           "workedOn": "IMU class Content"
@@ -353,10 +418,10 @@
         "helpedBy": [],
         "summary": "No logged collaboration yet; the IMU lesson work so far has been solo."
       },
-      "updatedAt": "2026-11-17T00:02:30.095Z",
+      "updatedAt": "2026-11-19T01:25:18.235Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-17T04:42:19.780201Z",
-    "version": 3
+    "updatedAt": "2026-11-19T04:42:14.067247Z",
+    "version": 4
   }
 }

@@ -1,4 +1,31 @@
 {
+  "5wdrhx0md270opvofv7l": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "4a04f79a343d9f597d4cf68ea0009eb500dd42d9",
+      "committedAt": "2026-11-19T04:45:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-19T04:44:00Z",
+      "date": "2026-11-18",
+      "helped": [],
+      "helpedBy": [],
+      "member": "lucie",
+      "next": "Research more modules to compare",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "7398d072325945d01c73df139eda5cf2",
+          "path": "photos/2026-11-18-7398d07232.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-18T23:54:46.000Z",
+      "workedOn": "Rebuilt starter board and continued work on regulator. Researched competition requirements and modules."
+    },
+    "updatedAt": "2026-11-19T04:42:20.83997Z",
+    "version": 3
+  },
   "6rz1na69bsisvp6zet95": {
     "data": {
       "blockers": "",
@@ -46,6 +73,28 @@
     },
     "updatedAt": "2026-11-13T05:37:12.257053Z",
     "version": 4
+  },
+  "fsdv8djks7p690h4mg90": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "4a04f79a343d9f597d4cf68ea0009eb500dd42d9",
+      "committedAt": "2026-11-19T04:45:00Z",
+      "completed": "Did the SCA sheet",
+      "consolidatedAt": "2026-11-19T04:44:00Z",
+      "date": "2026-11-18",
+      "helped": [],
+      "helpedBy": [],
+      "member": "zach",
+      "next": "Complete IMU lesson",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-19T01:25:18.235Z",
+      "workedOn": "SCA Sheet"
+    },
+    "updatedAt": "2026-11-19T04:42:20.849156Z",
+    "version": 3
   },
   "hnyx23xefkpe60kf2yr1": {
     "data": {
@@ -123,6 +172,39 @@
       "workedOn": "IMU lesson formatting"
     },
     "updatedAt": "2026-11-17T04:42:34.879378Z",
+    "version": 3
+  },
+  "lws1kga6hkfke2meex5u": {
+    "data": {
+      "blockers": "My own expertise :,(",
+      "collabNote": "",
+      "commit": "4a04f79a343d9f597d4cf68ea0009eb500dd42d9",
+      "committedAt": "2026-11-19T04:45:00Z",
+      "completed": "Selected the BMI270 as our IMU.",
+      "consolidatedAt": "2026-11-19T04:44:00Z",
+      "date": "2026-11-18",
+      "helped": [
+        "caleb"
+      ],
+      "helpedBy": [
+        "caleb"
+      ],
+      "member": "max",
+      "next": "I plan to further look into the BMI270 pin layout and circuitry. I also plan to find a magnometer and barometer to integrate into the sensor suite.",
+      "parts": [
+        {
+          "part": "BMI270",
+          "qty": 2,
+          "status": "needed",
+          "subsystem": "Sensors"
+        }
+      ],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-18T23:56:22.704Z",
+      "workedOn": "I discussed IMU configuration with Caleb to get a better idea of his needs and timelines. Further researched the BMI270 IMU, particularly its required circuitry and pin layout."
+    },
+    "updatedAt": "2026-11-19T04:42:20.858604Z",
     "version": 3
   },
   "n9wqqqmq7ig0wbkuqlko": {
