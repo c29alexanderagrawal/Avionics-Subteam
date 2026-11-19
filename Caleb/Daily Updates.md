@@ -1,6 +1,6 @@
 # Caleb: Daily Updates
 
-**Subsystem:** Not assigned yet
+**Subsystem:** Software
 
 Add a new entry under **Log** each day you work on avionics, newest first. See the [Team Updates README](../README.md) for what each field means.
 

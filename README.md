@@ -13,7 +13,7 @@ One folder per avionics team member. Each folder has a `Daily Updates.md` file w
 | Lucie | Radio | [Lucie/Daily Updates.md](<Lucie/Daily Updates.md>) |
 | Max | Sensors | [Max/Daily Updates.md](<Max/Daily Updates.md>) |
 | Peter | Pyrotechnics | [Peter/Daily Updates.md](<Peter/Daily Updates.md>) |
-| Caleb | Not assigned yet | [Caleb/Daily Updates.md](<Caleb/Daily Updates.md>) |
+| Caleb | Software | [Caleb/Daily Updates.md](<Caleb/Daily Updates.md>) |
 
 ## How to add an update
 
