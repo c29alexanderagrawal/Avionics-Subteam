@@ -23,6 +23,18 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-19
+
+**Worked on:** Ironed out rule specifications for the scoring data sensors. Researched possible barometers.\
+**Completed:** -\
+**Next:** Finalize barometer and find magnometer. Configure pin layout for sensor suite. Begin kicad schematic for sensor suite.\
+**Blockers:** My own expertise :'(.\
+**Helped:** Alex\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Parts:**
+- none
+
 ## 2026-11-18
 
 **Worked on:** I discussed IMU configuration with Caleb to get a better idea of his needs and timelines. Further researched the BMI270 IMU, particularly its required circuitry and pin layout.\

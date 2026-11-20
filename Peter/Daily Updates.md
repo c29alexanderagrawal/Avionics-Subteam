@@ -23,6 +23,18 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-19
+
+**Worked on:** Began research on Pyrotechnic System for far out rocket\
+**Completed:** -\
+**Next:** Watch recovery videos over break to familiarize myself\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** -\
+**Collaboration notes:** -\
+**Parts:**
+- none
+
 ## 2026-11-17
 
 **Worked on:** L1 STM32 Board\

@@ -23,6 +23,18 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-19
+
+**Worked on:** Looking up metrics to evaluate chips. Discussed pyro setups from BPS space.\
+**Completed:** -\
+**Next:** -\
+**Blockers:** -\
+**Helped:** Max, Peter\
+**Helped by:** Max, Peter\
+**Collaboration notes:** -\
+**Parts:**
+- none
+
 ## 2026-11-18
 
 **Worked on:** Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets.\
