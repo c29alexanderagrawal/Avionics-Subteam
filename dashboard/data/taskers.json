@@ -11,6 +11,7 @@
       "createdAt": "2026-11-18T15:30:03.098Z",
       "detail": "",
       "done_alex": "2026-11-18T15:30:09.762Z",
+      "done_caleb": "2026-11-20T01:43:59.347Z",
       "done_lucie": "2026-11-18T15:30:06.756Z",
       "done_max": "2026-11-18T15:30:08.016Z",
       "done_peter": "2026-11-18T15:30:08.688Z",
@@ -21,7 +22,7 @@
       "title": "Put your name in the SCA Excel tracker!",
       "updatedAt": "2026-11-18T15:30:03.098Z"
     },
-    "updatedAt": "2026-11-18T15:30:10.548514Z",
-    "version": 5
+    "updatedAt": "2026-11-20T01:44:00.259064Z",
+    "version": 6
   }
 }

@@ -23,16 +23,22 @@
           "text": "Published the Starter Flight Computer parts list and Lessons 1–3 for the new-member practice board."
         }
       ],
-      "consolidatedAt": "2026-11-18T18:46:00Z",
-      "focus": "Extending the Mission Control dashboard and scoping airbrakes sensing and simulation with Controls. On Nov 18 he added a step so dashboard daily updates are pushed automatically into Aydan's club-wide technical log Google Sheet, and the next step is confirming it runs correctly on the nightly schedule. The same day he discussed the airbrakes implementation with Peter, Caleb and Dean Dezel, focusing on which sensors are needed to drive realistic simulations, and will next work with Caleb on what he needs to test the code. On Nov 16 he went through the controls requirements with Nathan Aldridge and Caleb to inform the flight computer architecture choice.",
+      "consolidatedAt": "2026-11-20T04:44:00Z",
+      "focus": "Scoping the primary flight computer's chip selection and pyro approach while extending the Mission Control dashboard. On Nov 19 he looked up metrics for evaluating candidate flight computer chips and went over BPS.space pyro setups with Max and Peter. On Nov 18 he added a step so dashboard daily updates are pushed automatically into Aydan's club-wide technical log Google Sheet, with the next step being to confirm it runs on the nightly schedule. The same day he discussed airbrakes sensing with Peter, Caleb and Dean Dezel, focusing on which sensors are needed for realistic simulations.",
       "latest": {
         "blockers": "",
         "collabNote": "",
-        "date": "2026-11-18",
-        "helped": [],
-        "helpedBy": [],
-        "next": "Test that it works on a schedule",
-        "workedOn": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets."
+        "date": "2026-11-19",
+        "helped": [
+          "max",
+          "peter"
+        ],
+        "helpedBy": [
+          "max",
+          "peter"
+        ],
+        "next": "",
+        "workedOn": "Looking up metrics to evaluate chips. Discussed pyro setups from BPS space."
       },
       "name": "Alex",
       "parts": [],
@@ -66,6 +72,10 @@
         }
       ],
       "recentUpdates": [
+        {
+          "date": "2026-11-19",
+          "workedOn": "Looking up metrics to evaluate chips. Discussed pyro setups from BPS space."
+        },
         {
           "date": "2026-11-18",
           "workedOn": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets."
@@ -125,31 +135,39 @@
             "member": "caleb"
           },
           {
+            "count": 2,
+            "member": "peter"
+          },
+          {
             "count": 1,
             "member": "lucie"
           },
           {
             "count": 1,
-            "member": "peter"
+            "member": "max"
           }
         ],
         "helpedBy": [
           {
-            "count": 1,
+            "count": 2,
             "member": "peter"
           },
           {
             "count": 1,
             "member": "caleb"
+          },
+          {
+            "count": 1,
+            "member": "max"
           }
         ],
-        "summary": "Worked with Caleb and Peter on airbrakes sensing and simulation (with Dean Dezel) and with Caleb and Nathan Aldridge on controls requirements; also reviewed Lucie's starter-board USB design."
+        "summary": "Worked with Max and Peter on chip evaluation and pyro setups, with Caleb and Peter on airbrakes sensing (with Dean Dezel) and with Caleb and Nathan Aldridge on controls requirements; also reviewed Lucie's starter-board USB design."
       },
-      "updatedAt": "2026-11-18T18:44:23.156Z",
+      "updatedAt": "2026-11-20T00:01:57.945Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-18T18:45:46.312606Z",
-    "version": 9
+    "updatedAt": "2026-11-20T04:42:45.336301Z",
+    "version": 10
   },
   "caleb": {
     "data": {
@@ -157,7 +175,7 @@
       "focus": "",
       "name": "Caleb",
       "parts": [],
-      "role": "",
+      "role": "Software",
       "teamwork": {
         "external": [
           {
@@ -191,8 +209,8 @@
       "updatedAt": null,
       "workingOn": []
     },
-    "updatedAt": "2026-11-19T04:42:16.551023Z",
-    "version": 4
+    "updatedAt": "2026-11-19T17:14:03.051022Z",
+    "version": 5
   },
   "lucie": {
     "data": {
@@ -267,25 +285,27 @@
           "text": "Selected the BMI270 as the team's IMU after reviewing its circuitry and pin layout against Caleb's configuration needs."
         }
       ],
-      "consolidatedAt": "2026-11-19T04:43:00Z",
-      "focus": "Defining the IMU for the avionics sensor suite. On Nov 18 he met with Caleb to pin down Caleb's IMU configuration needs and timelines, then researched the BMI270's required support circuitry and pin layout. He settled on the BMI270 as the team's IMU (two units needed). Next he will finish working out the BMI270 pinout and circuit and pick a magnetometer and barometer for the suite.",
+      "consolidatedAt": "2026-11-20T04:44:00Z",
+      "focus": "Selecting parts for the avionics sensor suite and preparing its KiCad schematic. On Nov 19 he worked through the competition rule specifications for the scoring-data sensors and researched candidate barometers. On Nov 18 he met with Caleb on IMU configuration needs and timelines, then settled on the BMI270 as the team's IMU (two units) after reviewing its support circuitry and pin layout. Next he will finalize the barometer, pick a magnetometer, lay out the sensor-suite pin assignments and start the KiCad schematic.",
       "latest": {
-        "blockers": "My own expertise :,(",
+        "blockers": "My own expertise :'(.",
         "collabNote": "",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "helped": [
-          "caleb"
+          "alex"
         ],
-        "helpedBy": [
-          "caleb"
-        ],
-        "next": "I plan to further look into the BMI270 pin layout and circuitry. I also plan to find a magnometer and barometer to integrate into the sensor suite.",
-        "workedOn": "I discussed IMU configuration with Caleb to get a better idea of his needs and timelines. Further researched the BMI270 IMU, particularly its required circuitry and pin layout."
+        "helpedBy": [],
+        "next": "Finalize barometer and find magnometer. Configure pin layout for sensor suite. Begin kicad schematic for sensor suite.",
+        "workedOn": "Ironed out rule specifications for the scoring data sensors. Researched possible barometers."
       },
       "name": "Max",
       "parts": [],
       "photos": [],
       "recentUpdates": [
+        {
+          "date": "2026-11-19",
+          "workedOn": "Ironed out rule specifications for the scoring data sensors. Researched possible barometers."
+        },
         {
           "date": "2026-11-18",
           "workedOn": "I discussed IMU configuration with Caleb to get a better idea of his needs and timelines. Further researched the BMI270 IMU, particularly its required circuitry and pin layout."
@@ -297,22 +317,30 @@
         "helped": [
           {
             "count": 1,
+            "member": "alex"
+          },
+          {
+            "count": 1,
             "member": "caleb"
           }
         ],
         "helpedBy": [
           {
             "count": 1,
+            "member": "alex"
+          },
+          {
+            "count": 1,
             "member": "caleb"
           }
         ],
-        "summary": "Worked with Caleb on IMU configuration, matching sensor selection to his needs and timelines."
+        "summary": "Worked with Caleb on IMU configuration and with Alex on chip evaluation and the scoring-data sensor requirements."
       },
-      "updatedAt": "2026-11-18T23:56:22.704Z",
+      "updatedAt": "2026-11-20T00:01:15.145Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-19T04:42:02.602788Z",
-    "version": 3
+    "updatedAt": "2026-11-20T04:42:45.342818Z",
+    "version": 4
   },
   "peter": {
     "data": {
@@ -322,16 +350,16 @@
           "text": "Added the SWD debug/programming header and a MOSFET-driven buzzer circuit to the L1 STM32 board schematic."
         }
       ],
-      "consolidatedAt": "2026-11-18T04:42:30Z",
-      "focus": "Designing the schematic for the L1 STM32 flight board, with pyro channels up next. On 2026-11-17 he finished the debug/programming section: a 10-pin 1.27 mm SWD header (Samtec FTSH-105-01) breaking out 3V3, SWDIO, SWCLK, SWO and NRST. He also completed the buzzer circuit, driving a CSS-J4B20 buzzer off 3V3 through an AO3400A N-MOSFET from a BUZZER_PWM line, with a 10k gate pull-down and a 1N4148W flyback diode. Next he is adding the pyro circuits and updating footprints.",
+      "consolidatedAt": "2026-11-20T04:44:00Z",
+      "focus": "Starting the pyrotechnic system design for the FAR-OUT rocket after finishing key sections of the L1 STM32 board schematic. On Nov 19 he began researching pyro system approaches and went over BPS.space pyro setups with Alex, and plans to study recovery videos over the break. On Nov 17 he completed the board's 10-pin 1.27 mm SWD header (Samtec FTSH-105-01) and a buzzer circuit driving a CSS-J4B20 through an AO3400A N-MOSFET with a 10k gate pull-down and 1N4148W flyback diode; pyro circuits and footprint updates are next on that board.",
       "latest": {
         "blockers": "",
         "collabNote": "",
-        "date": "2026-11-17",
+        "date": "2026-11-19",
         "helped": [],
         "helpedBy": [],
-        "next": "Pyro + Updating Footprints",
-        "workedOn": "L1 STM32 Board"
+        "next": "Watch recovery videos over break to familiarize myself",
+        "workedOn": "Began research on Pyrotechnic System for far out rocket"
       },
       "name": "Peter",
       "parts": [],
@@ -353,6 +381,10 @@
       ],
       "recentUpdates": [
         {
+          "date": "2026-11-19",
+          "workedOn": "Began research on Pyrotechnic System for far out rocket"
+        },
+        {
           "date": "2026-11-17",
           "workedOn": "L1 STM32 Board"
         }
@@ -362,23 +394,23 @@
         "external": [],
         "helped": [
           {
-            "count": 1,
+            "count": 2,
             "member": "alex"
           }
         ],
         "helpedBy": [
           {
-            "count": 1,
+            "count": 2,
             "member": "alex"
           }
         ],
-        "summary": "Discussed airbrakes sensing and simulation with Alex and Caleb (and Dean Dezel) on Nov 18."
+        "summary": "Worked with Alex on pyro setups on Nov 19 and on airbrakes sensing and simulation with Alex, Caleb and Dean Dezel on Nov 18."
       },
-      "updatedAt": "2026-11-17T23:56:41.128Z",
+      "updatedAt": "2026-11-19T23:59:04.770Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-18T18:45:46.319798Z",
-    "version": 4
+    "updatedAt": "2026-11-20T04:42:45.349359Z",
+    "version": 5
   },
   "zach": {
     "data": {

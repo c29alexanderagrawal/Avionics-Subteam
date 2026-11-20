@@ -1,4 +1,28 @@
 {
+  "4e1zs34dtpuytax1zog6": {
+    "data": {
+      "blockers": "My own expertise :'(.",
+      "collabNote": "",
+      "commit": "171a5c7260c4afed76c1a5f746f1fa85cedd8cfe",
+      "committedAt": "2026-11-20T04:45:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-20T04:44:30Z",
+      "date": "2026-11-19",
+      "helped": [
+        "alex"
+      ],
+      "helpedBy": [],
+      "member": "max",
+      "next": "Finalize barometer and find magnometer. Configure pin layout for sensor suite. Begin kicad schematic for sensor suite.",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-20T00:01:15.145Z",
+      "workedOn": "Ironed out rule specifications for the scoring data sensors. Researched possible barometers."
+    },
+    "updatedAt": "2026-11-20T04:42:54.426719Z",
+    "version": 3
+  },
   "5wdrhx0md270opvofv7l": {
     "data": {
       "blockers": "",
@@ -51,6 +75,28 @@
       "workedOn": "- Tested Mission update with Kaleb Abeye"
     },
     "updatedAt": "2026-11-13T15:52:21.819037Z",
+    "version": 3
+  },
+  "7d02tnq2zgezc7b5o2gu": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "171a5c7260c4afed76c1a5f746f1fa85cedd8cfe",
+      "committedAt": "2026-11-20T04:45:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-20T04:44:30Z",
+      "date": "2026-11-19",
+      "helped": [],
+      "helpedBy": [],
+      "member": "peter",
+      "next": "Watch recovery videos over break to familiarize myself",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-19T23:59:04.770Z",
+      "workedOn": "Began research on Pyrotechnic System for far out rocket"
+    },
+    "updatedAt": "2026-11-20T04:42:54.433698Z",
     "version": 3
   },
   "7xhdmx4odjn5bcgm8l8e": {
@@ -232,6 +278,34 @@
       "workedOn": "Implemented AI functionality so MCD Daily Updates can be pushed to Aydan's technical log google sheets."
     },
     "updatedAt": "2026-11-18T18:45:50.600934Z",
+    "version": 3
+  },
+  "nupp0yosvt010261wrw5": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "171a5c7260c4afed76c1a5f746f1fa85cedd8cfe",
+      "committedAt": "2026-11-20T04:45:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-20T04:44:30Z",
+      "date": "2026-11-19",
+      "helped": [
+        "max",
+        "peter"
+      ],
+      "helpedBy": [
+        "max",
+        "peter"
+      ],
+      "member": "alex",
+      "next": "",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-20T00:01:57.945Z",
+      "workedOn": "Looking up metrics to evaluate chips. Discussed pyro setups from BPS space."
+    },
+    "updatedAt": "2026-11-20T04:42:54.440481Z",
     "version": 3
   },
   "rd1zchuzndsw1utj4d8e": {
