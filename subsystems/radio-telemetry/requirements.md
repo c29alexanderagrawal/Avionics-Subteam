@@ -14,9 +14,19 @@ In a few sentences, describe what this subsystem is responsible for and what it 
 
 List every rule in the FAR-OUT Rules & Requirements document that affects this subsystem.
 
+Source: FAR-OUT 2026-27 Rules & Requirements, Rev. 2026-08-31. AV-xxx IDs match the team's [FAR-OUT Rules Applicable to Avionics](https://claude.ai/artifact/2U62yFiEvesXc2QKdn2qTq) doc.
+
 | Rule # | Requirement (quote or summary) | How it affects this subsystem |
 |---|---|---|
-| | | |
+| 5.5 (AV-204) | No more than two GPS systems operating in the 915 MHz or 440 MHz bands per stage. | Caps how many trackers can share those bands; a telemetry radio on 915/440 may count against the limit (open question for FAR-OUT). |
+| 5.5.1 (AV-205) | Identify every transmitter frequency. | Keep a frequency list for every onboard and ground transmitter. |
+| 5.5.1, 3.2.2 (AV-206) | Frequencies needing an FCC (HAM) license require a licensed team member at the launch site; otherwise the team cannot transmit on its assigned frequency. | Using 70 cm / 2 m HAM gear means a licensed member must attend competition. |
+| 5.5.1 (AV-207) | Without a licensed member, use an ISM-band GPS, preferably 900 MHz. | Default to 900 MHz ISM unless the team commits to having a licensee on site. |
+| 5.5.2 (AV-208) | Specify tracker frequencies after the final progress update; FAR-OUT may reassign channels to avoid overlap. | Radios must be retunable to another channel at short notice. |
+| 5.5.1, 5.7.5 (AV-209) | Practice pulling telemetry off the rocket at ranges at least 40% beyond expected apogee. | Link budget, antennas and ground station must close at 1.4× apogee; the range test must be done and recorded. |
+| 5.4.12, 5.7.5 (AV-212) | Practice controlling wireless GSE at 2,000 ft or more; wired GSE must be tested beyond 1,000 ft. Wireless GSE is strongly recommended. | The bunker-to-pad launch-control link needs a ≥2,000 ft range test. |
+| 5.4.12, 5.7.5 (AV-213) | Mount GSE radio antennas on masts to clear shrubbery and ground reflections (20 ft in 5.4.12, 10 ft in 5.7.5). | Plan a ground antenna mast; mast height is an open question for FAR-OUT. |
+| 5.4.12 (AV-214) | Prefer 440 MHz (70 cm) or 915 MHz for GSE radio; 2.4 GHz and 5.8 GHz channels will be shared under a band-sharing scheme. | Choose GSE and flight radio bands so they don't overlap each other or the GPS trackers. |
 
 ## 3. Questions
 
