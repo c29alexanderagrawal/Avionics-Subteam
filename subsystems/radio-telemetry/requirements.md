@@ -34,11 +34,19 @@ Write down as many questions as you can about what you need to know. No question
 
 Example: *How many IMUs will we need?*
 
-1.
+1. .How many IMU's are we using 
+2. What is the frequency of the IMUs 
+3. Frequency of the GPS? 
+4. Do we need to send down GPS data if it is already sending separately? 
 
 ## 4. Objectives
 
 What this subsystem must do (not how it will do it). Note where each one comes from: a FAR-OUT rule number, or "team goal".
+1. Send data to at least 1.4x expected apogee 
+2. Miss no more than X% of the data 
+3. Data packets are timestamped 
+4. Send necessary data and bandwidth: 
+
 - State data 
 	- calculated attitude 
 	- rates 
