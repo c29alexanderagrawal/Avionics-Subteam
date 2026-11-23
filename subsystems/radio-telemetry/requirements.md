@@ -8,7 +8,7 @@
 
 In a few sentences, describe what this subsystem is responsible for and what it is not. Name anything that might overlap with another subsystem.
 
--
+-This subsystem is responsible for transmitting data between the rocket and ground. 
 
 ## 2. FAR-OUT requirements
 
