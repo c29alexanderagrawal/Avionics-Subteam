@@ -2,7 +2,7 @@
 
 **Owner(s):** Lucie\
 **Status:** Draft\
-**Last updated:** YYYY-MM-DD
+**Last updated:** 2026-11-23
 
 ## 1. Scope
 
@@ -29,10 +29,22 @@ Example: *How many IMUs will we need?*
 ## 4. Objectives
 
 What this subsystem must do (not how it will do it). Note where each one comes from: a FAR-OUT rule number, or "team goal".
+- State data 
+	- calculated attitude 
+	- rates 
+- Meta data 
+	- Voltage 
+	- State (with timestamps)
+	- Tank pressures 
+	- Tank valve states 
+- As much raw data as possible 
+	- 2-3 IMUs (what freq?)
+	- 1-2 Barometers (what freq?)
+	- 1 GPS (what freq?)
 
-| # | Objective | Source (rule # or team goal) |
-|---|---|---|
-| 1 | | |
+| #   | Objective | Source (rule # or team goal) |
+| --- | --------- | ---------------------------- |
+| 1   |           |                              |
 
 ## 5. Interfaces
 

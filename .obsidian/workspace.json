@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "8b26aff33e39ef25",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bd3d1cfa6e61fb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0cb2b34a8c46c23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "subsystems/radio-telemetry/requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "requirements"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2586a55c4c742851",
+    "type": "split",
+    "children": [
+      {
+        "id": "85da8cf8219a7e89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dcb6c2922462c20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d438abb8bab1b782",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "963a54e47fc54055",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9aaf9f244bc9067b",
+    "type": "split",
+    "children": [
+      {
+        "id": "630ddae8294c2b08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8e466b96069e1a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "subsystems/sensors/requirements.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for requirements"
+            }
+          },
+          {
+            "id": "1e26b5218b8235bb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "subsystems/sensors/requirements.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from requirements"
+            }
+          },
+          {
+            "id": "5167872a33f86104",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0407386d33c18a66",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a74549a4c847fbfc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "subsystems/sensors/requirements.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of requirements"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c0cb2b34a8c46c23",
+  "lastOpenFiles": [
+    "dashboard/data/desktop.ini",
+    "dashboard/data/taskers.json",
+    "dashboard/data/updates.json",
+    "dashboard/data/photos.json",
+    "dashboard/data/meta.json",
+    "dashboard/data/events.json",
+    "dashboard/data/agendas.json",
+    "dashboard/data/crew.json",
+    "dashboard/data/calendar.json",
+    "dashboard/index.html",
+    "dashboard/README.md",
+    "dashboard/SCHEMA.md",
+    "dashboard/data",
+    "Peter/photos/2026-11-17-ceea4b4b80.jpg",
+    "Peter/photos/2026-11-17-2f22bdff6f.jpg",
+    "Lucie/photos/2026-11-18-7398d07232.jpg",
+    "Alex/photos/2026-11-18-247f4b377c.jpg",
+    "subsystems/radio-telemetry/requirements.md",
+    "subsystems/sensors/requirements.md",
+    "subsystems/lessons/requirements.md",
+    "subsystems/pyro-recovery/requirements.md",
+    "subsystems/power-arming/requirements.md",
+    "subsystems/controls-interface-code/requirements.md",
+    "subsystems/actuators/requirements.md",
+    "subsystems/_template.md",
+    "subsystems/README.md",
+    "subsystems/glossary.md",
+    "Zach/Daily Updates.md",
+    "Starter Flight Computer/Starter Flight Computer — Parts List.md",
+    "Starter Flight Computer/Lesson 3 - Communication Protocols.md",
+    "Starter Flight Computer/Lesson 1 - System Overview.md",
+    "Starter Flight Computer/Lesson 2 - The Microcontroller and Its Interfaces.md",
+    "README.md",
+    "Peter/Daily Updates.md",
+    "Max/Daily Updates.md",
+    "Lucie/photos/2026-11-16-1cc8bd34e7.jpg",
+    "Lucie/Daily Updates.md",
+    "Caleb/Daily Updates.md",
+    "Alex/photos/2026-11-13-dcc3d9d1bc.jpg",
+    "Alex/photos/2026-11-12-3662a255ce.jpg",
+    "Alex/photos/2026-11-12-42c37629ae.jpg",
+    "Alex/Daily Updates.md"
+  ]
+}
