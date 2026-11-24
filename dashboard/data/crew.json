@@ -4,6 +4,10 @@
       "accomplishments": [
         {
           "month": "2026-11",
+          "text": "Revised the FAR-OUT competition requirements for the whole avionics package and broke them out into per-subsystem requirements."
+        },
+        {
+          "month": "2026-11",
           "text": "Launched the Mission Control dashboard with a nightly scheduled sync that moves daily updates from the form queue to GitHub, summarizes them onto member pages, and now also logs each update to the club-wide technical log Google Sheet."
         },
         {
@@ -23,26 +27,31 @@
           "text": "Published the Starter Flight Computer parts list and Lessons 1–3 for the new-member practice board."
         }
       ],
-      "consolidatedAt": "2026-11-20T04:44:00Z",
-      "focus": "Scoping the primary flight computer's chip selection and pyro approach while extending the Mission Control dashboard. On Nov 19 he looked up metrics for evaluating candidate flight computer chips and went over BPS.space pyro setups with Max and Peter. On Nov 18 he added a step so dashboard daily updates are pushed automatically into Aydan's club-wide technical log Google Sheet, with the next step being to confirm it runs on the nightly schedule. The same day he discussed airbrakes sensing with Peter, Caleb and Dean Dezel, focusing on which sensors are needed for realistic simulations.",
+      "consolidatedAt": "2026-11-24T04:43:00Z",
+      "focus": "Breaking the FAR-OUT competition requirements down by avionics subsystem while running the Mission Control dashboard. On Nov 23 he revised the FAR-OUT requirements for the whole avionics package and separated them into per-subsystem requirements, and helped Lucie get GitHub Desktop and Obsidian set up for that requirements work. Next he plans to push the split requirements into the individual subsystem folders on GitHub and check with Aydan on what the GSE system will use. On Nov 19 he looked up metrics for evaluating candidate flight computer chips and went over BPS.space pyro setups with Max and Peter.",
       "latest": {
         "blockers": "",
         "collabNote": "",
-        "date": "2026-11-19",
+        "date": "2026-11-23",
         "helped": [
-          "max",
-          "peter"
+          "lucie"
         ],
         "helpedBy": [
-          "max",
-          "peter"
+          "lucie"
         ],
-        "next": "",
-        "workedOn": "Looking up metrics to evaluate chips. Discussed pyro setups from BPS space."
+        "next": "Still need to push this to github and to individual sub-system folders. Need to talk to Aydan to figure out what the GSE system is going to use.",
+        "workedOn": "Revised the Far-Out requirements for the whole avionics package. Separated these out into sub-systems. Helped Lucie get Github desktop set up and Obsidian set up."
       },
       "name": "Alex",
       "parts": [],
       "photos": [
+        {
+          "addedAt": "2026-11-24T00:00:26.468Z",
+          "asset": "b40094ad278855b04a56e6f2859a0b7b",
+          "caption": "Revised the Far-Out requirements for the whole avionics package. Separated these out into sub-systems. Helped Lucie get Github desktop set up and Obsidian set up.",
+          "date": "2026-11-23",
+          "path": "photos/2026-11-23-b40094ad27.jpg"
+        },
         {
           "addedAt": "2026-11-18T18:44:23.156Z",
           "asset": "247f4b377c0ea631f7faabb1c6c52b29",
@@ -73,6 +82,10 @@
       ],
       "recentUpdates": [
         {
+          "date": "2026-11-23",
+          "workedOn": "Revised the Far-Out requirements for the whole avionics package. Separated these out into sub-systems. Helped Lucie get Github desktop set up and Obsidian set up."
+        },
+        {
           "date": "2026-11-19",
           "workedOn": "Looking up metrics to evaluate chips. Discussed pyro setups from BPS space."
         },
@@ -99,10 +112,6 @@
         {
           "date": "2026-11-12",
           "workedOn": "Added Mission Control website with Claude"
-        },
-        {
-          "date": "2026-11-12",
-          "workedOn": "I read some articles about how rocketry teams are run in other universities."
         }
       ],
       "role": "Primary flight computer",
@@ -131,16 +140,16 @@
         ],
         "helped": [
           {
+            "count": 3,
+            "member": "lucie"
+          },
+          {
             "count": 2,
             "member": "caleb"
           },
           {
             "count": 2,
             "member": "peter"
-          },
-          {
-            "count": 1,
-            "member": "lucie"
           },
           {
             "count": 1,
@@ -158,16 +167,20 @@
           },
           {
             "count": 1,
+            "member": "lucie"
+          },
+          {
+            "count": 1,
             "member": "max"
           }
         ],
-        "summary": "Worked with Max and Peter on chip evaluation and pyro setups, with Caleb and Peter on airbrakes sensing (with Dean Dezel) and with Caleb and Nathan Aldridge on controls requirements; also reviewed Lucie's starter-board USB design."
+        "summary": "Worked with Lucie on the radio requirements and her GitHub/Obsidian setup, with Max and Peter on chip evaluation and pyro setups, and with Caleb, Peter and Dean Dezel on airbrakes sensing and Caleb and Nathan Aldridge on controls requirements."
       },
-      "updatedAt": "2026-11-20T00:01:57.945Z",
+      "updatedAt": "2026-11-24T00:00:26.468Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-20T04:42:45.336301Z",
-    "version": 10
+    "updatedAt": "2026-11-24T04:41:56.927011Z",
+    "version": 11
   },
   "caleb": {
     "data": {
@@ -220,16 +233,18 @@
           "text": "Wired the starter board's USB subsystem (receptacle, headers and ESD protection) into the KiCad schematic, moving to a smaller USB receptacle after review."
         }
       ],
-      "consolidatedAt": "2026-11-19T04:43:00Z",
-      "focus": "Building the starter flight computer board in KiCad, now moving from the USB section to the voltage regulator. On Nov 16 she wired the USB receptacle, headers and USB ESD protection, switching to a smaller receptacle after Alex's review. On Nov 18 she rebuilt the starter board, continued work on the regulator circuit, and researched the competition requirements and candidate modules. Next she is comparing more modules.",
+      "consolidatedAt": "2026-11-24T04:43:00Z",
+      "focus": "Researching radio telemetry modules for the radio subsystem while finishing the starter board's regulator in KiCad. On Nov 23 she researched candidate radio modules and worked through the radio requirements and parameters with Alex, who also helped her get GitHub Desktop and Obsidian set up. Next she is evaluating more modules such as the RFD 900x. On Nov 18 she rebuilt the starter board and continued the voltage regulator circuit.",
       "latest": {
         "blockers": "",
         "collabNote": "",
-        "date": "2026-11-18",
+        "date": "2026-11-23",
         "helped": [],
-        "helpedBy": [],
-        "next": "Research more modules to compare",
-        "workedOn": "Rebuilt starter board and continued work on regulator. Researched competition requirements and modules."
+        "helpedBy": [
+          "alex"
+        ],
+        "next": "Research more modules like RFD 900x",
+        "workedOn": "Researched modules and discussed requirements and parameters with Alex"
       },
       "name": "Lucie",
       "parts": [],
@@ -251,6 +266,10 @@
       ],
       "recentUpdates": [
         {
+          "date": "2026-11-23",
+          "workedOn": "Researched modules and discussed requirements and parameters with Alex"
+        },
+        {
           "date": "2026-11-18",
           "workedOn": "Rebuilt starter board and continued work on regulator. Researched competition requirements and modules."
         },
@@ -262,20 +281,25 @@
       "role": "Radio",
       "teamwork": {
         "external": [],
-        "helped": [],
-        "helpedBy": [
+        "helped": [
           {
             "count": 1,
             "member": "alex"
           }
         ],
-        "summary": "Worked with Alex on the starter board's USB section; his review of her KiCad drawing led to a smaller USB receptacle."
+        "helpedBy": [
+          {
+            "count": 3,
+            "member": "alex"
+          }
+        ],
+        "summary": "Worked with Alex on the radio requirements and parameters and her GitHub/Obsidian setup, and earlier on the starter board's USB section, where his review led to a smaller USB receptacle."
       },
-      "updatedAt": "2026-11-18T23:54:46.000Z",
+      "updatedAt": "2026-11-24T00:04:32.220Z",
       "workingOn": []
     },
-    "updatedAt": "2026-11-19T04:42:10.627075Z",
-    "version": 4
+    "updatedAt": "2026-11-24T04:42:04.202432Z",
+    "version": 5
   },
   "max": {
     "data": {

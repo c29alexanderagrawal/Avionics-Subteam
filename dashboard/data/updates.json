@@ -142,6 +142,37 @@
     "updatedAt": "2026-11-19T04:42:20.849156Z",
     "version": 3
   },
+  "fx5dojh88xnr9tpyyp9k": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "242d7ce56075574ef0bb9f1806180c731c938a8f",
+      "committedAt": "2026-11-24T04:41:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-24T04:44:00Z",
+      "date": "2026-11-23",
+      "helped": [
+        "lucie"
+      ],
+      "helpedBy": [
+        "lucie"
+      ],
+      "member": "alex",
+      "next": "Still need to push this to github and to individual sub-system folders. Need to talk to Aydan to figure out what the GSE system is going to use.",
+      "parts": [],
+      "photos": [
+        {
+          "asset": "b40094ad278855b04a56e6f2859a0b7b",
+          "path": "photos/2026-11-23-b40094ad27.jpg"
+        }
+      ],
+      "status": "consolidated",
+      "submittedAt": "2026-11-24T00:00:26.468Z",
+      "workedOn": "Revised the Far-Out requirements for the whole avionics package. Separated these out into sub-systems. Helped Lucie get Github desktop set up and Obsidian set up."
+    },
+    "updatedAt": "2026-11-24T04:42:09.004959Z",
+    "version": 3
+  },
   "hnyx23xefkpe60kf2yr1": {
     "data": {
       "blockers": "",
@@ -331,6 +362,30 @@
       "workedOn": "Discussed controls requirements with Nathan Aldridge and Caleb."
     },
     "updatedAt": "2026-11-17T04:42:34.887734Z",
+    "version": 3
+  },
+  "ut0dvgzzsswpiftwyrb0": {
+    "data": {
+      "blockers": "",
+      "collabNote": "",
+      "commit": "242d7ce56075574ef0bb9f1806180c731c938a8f",
+      "committedAt": "2026-11-24T04:41:00Z",
+      "completed": "",
+      "consolidatedAt": "2026-11-24T04:44:00Z",
+      "date": "2026-11-23",
+      "helped": [],
+      "helpedBy": [
+        "alex"
+      ],
+      "member": "lucie",
+      "next": "Research more modules like RFD 900x",
+      "parts": [],
+      "photos": [],
+      "status": "consolidated",
+      "submittedAt": "2026-11-24T00:04:32.220Z",
+      "workedOn": "Researched modules and discussed requirements and parameters with Alex"
+    },
+    "updatedAt": "2026-11-24T04:42:09.01568Z",
     "version": 3
   },
   "vk1ag9som0cg0s5fgb37": {
