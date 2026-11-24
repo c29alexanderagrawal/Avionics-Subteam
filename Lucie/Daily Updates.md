@@ -23,6 +23,18 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-23
+
+**Worked on:** Researched modules and discussed requirements and parameters with Alex\
+**Completed:** -\
+**Next:** Research more modules like RFD 900x\
+**Blockers:** -\
+**Helped:** -\
+**Helped by:** Alex\
+**Collaboration notes:** -\
+**Parts:**
+- none
+
 ## 2026-11-18
 
 **Worked on:** Rebuilt starter board and continued work on regulator. Researched competition requirements and modules.\

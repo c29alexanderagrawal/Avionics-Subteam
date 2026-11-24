@@ -23,6 +23,20 @@ Copy this block, paste it under **Log**, and fill it in:
 
 <!-- Newest entry goes directly below this line. -->
 
+## 2026-11-23
+
+**Worked on:** Revised the Far-Out requirements for the whole avionics package. Separated these out into sub-systems. Helped Lucie get Github desktop set up and Obsidian set up.\
+**Completed:** -\
+**Next:** Still need to push this to github and to individual sub-system folders. Need to talk to Aydan to figure out what the GSE system is going to use.\
+**Blockers:** -\
+**Helped:** Lucie\
+**Helped by:** Lucie\
+**Collaboration notes:** -\
+**Photos:**\
+![2026-11-23 photo 1](photos/2026-11-23-b40094ad27.jpg)\
+**Parts:**
+- none
+
 ## 2026-11-19
 
 **Worked on:** Looking up metrics to evaluate chips. Discussed pyro setups from BPS space.\
